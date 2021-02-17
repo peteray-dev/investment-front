@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#navigator
+{
+    background-color: turquoise;
+}
+
+.navbar-brand img
+{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}    
+.menubar 
+{
+    margin-left: 250px;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+.menubar ul li
+{
+    width: 150px;
+    margin: 25px 15px 25px;
+    /* margin-top: 20px;        */
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+.menubar ul li a:hover
+{
+    background-color: burlywood;
+    border-radius: 5px;
+}
+/* .active
+{
+    background-color: burlywood;
+    border-radius: 5px;
+}  */
+.fa
+{
+    margin-right: 15px;
+}
+
+/* --------------slider------ */
+#slider
+{
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/Vector.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+#motto
+{
+    font-size: 50px;
+    font-family: cursive;
+    padding: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#address
+{
+    margin-left: 500px;
+}
+.nav-link
+{
+    margin: 15px;
+    width: 150px;
+}
+
+.nav-link:hover
+{
+    background-color: blue;
+    color: white;
+}
+/* ----Services------ */
+#our
+{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    color: crimson;
+}
+.cash
+{
+    color: darkcyan;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.cash:hover
+{
+    background-color: blue;
+    color: white;
+}
+.list
+{
+    list-style: square;
+    color: yellowgreen;
+    padding-left: 50px;
+}
+.join
+{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-weight: 100px;    
+    padding: 3px;
+    background-color: wheat;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.out p
+{
+    color: yellowgreen;
+    font-style: italic;
+}
+.out
+{
+    box-shadow: whitesmoke;
+}
+
+/* About us */
+#about
+{
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0,0,0.2,0), rgba(0,0,0,0.6)), url(img/wall\ paper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#us
+{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    color: greenyellow;
+   
+}
+.aboutus p
+{
+    color: white;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
+.address
+{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    
+}
+.span
+{
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
